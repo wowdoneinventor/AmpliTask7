@@ -1,0 +1,40 @@
+body {
+    font-family: Roboto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+}
+
+.button {
+    margin: 20px;
+    width: 200px;
+    height: 30px;
+    background-color: #F012BE;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    color: #7FDBFF;
+}
+
+.button:hover {
+    width: 30px;
+    height: 200px;
+    padding: 25px;
+    background-color: #7FDBFF;
+    color: #F012BE;
+}
+
+.transition {
+    transition: padding 1s ease, background-color 1s ease, width 1s ease, height 1s ease;
+}
+
+/*.stopButton {
+    margin: 20px;
+    width: 200px;
+    background-color: #FF4136;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+}*/
